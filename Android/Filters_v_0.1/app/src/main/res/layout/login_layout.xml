@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/gradient"
+    android:weightSum="1">
+
+    <ImageView
+        android:layout_width="198dp"
+        android:layout_height="178dp"
+        android:id="@+id/imageView"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/logo"
+        android:contentDescription="@string/logo" />
+
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/infoAuth"
+        android:id="@+id/textView2"
+        android:layout_gravity="center_horizontal"
+        android:gravity="top|center_vertical|center|fill_vertical|center_horizontal"
+        android:textColor="#ffffff"
+        android:textSize="15sp" />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:id="@+id/editEmail"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/edit_text_selector"
+        android:inputType="textEmailAddress"
+        android:hint="@string/textEmail"
+        android:textColorHint="#626262"
+        android:textColor="#000000" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        android:layout_gravity="center_horizontal" />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:id="@+id/editPass"
+        android:layout_gravity="center_horizontal"
+        android:inputType="textPassword"
+        android:hint="@string/textPass"
+        android:background="@drawable/edit_text_selector"
+        android:textColorHint="@color/gray"
+        android:textColor="@color/colorText" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:text="@string/btnLogin"
+        android:id="@+id/btnLogin"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/btn_selector"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="70dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/textReg"
+        android:id="@+id/textView3"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#ffffff"
+        android:gravity="center_vertical|center|fill_vertical|center_horizontal"
+        android:textSize="15sp" />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:text="@string/btnReg"
+        android:id="@+id/btnReg"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/btn_selector"
+        android:textColor="#ffffff" />
+</LinearLayout>

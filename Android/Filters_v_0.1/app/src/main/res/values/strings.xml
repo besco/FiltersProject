@@ -1,0 +1,44 @@
+<resources>
+    <string name="infoAuth">Для начала работы с приложением Вам надо авторизоваться в системе</string>
+    <string name="textEmail">Введите e-mail</string>
+    <string name="textPass">Введите пароль</string>
+    <string name="btnLogin">Авторизоваться</string>
+    <string name="textReg">Если вы еще не зарегистрированы, вы можете сделать это нажав на следущую кнопку</string>
+    <string name="btnReg">Зарегистрироваться</string>
+    <string name="logo">logo</string>
+    <string name="textUserInfo">Данные о пользователе:</string>
+    <string name="textNewUser">Регистрация нового пользователя:</string>
+    <string name="textName">Введите имя</string>
+    <string name="textPhone">Введите номер телефона</string>
+    <string name="btnNewUser">Зарегистрироваться</string>
+    <string name="textBtnAddFilter">Добавить фильтр</string>
+    <string name="textAbout">Информация о:</string>
+    <string name="textAboutFirm">О фирме..</string>
+    <string name="btnAbout">btnAbout</string>
+    <string name="textBtnUpd">Обновить список</string>
+    <string name="textBtnUpdList">Обновить список</string>
+    <string name="textCatFilters">Фильтры, подходящие под категорию</string>
+    <string name="textAddFilter">Информация о фильтре</string>
+    <string name="btnUpdUseFilter">Сохранить данные</string>
+    <string name="hintAddr">Адрес установки, для доставки</string>
+    <string name="hintPhone">Контактный телефон, для связи</string>
+    <string name="hintDateEndFilter">Дата окончания работы фильтра</string>
+    <string name="hintDateBeginFilter">Дата установки фильтра</string>
+
+    <string name="app_name">DatePicker</string>
+    <string name="choose_date">Выберите дату</string>
+    <string name="ready">Готово</string>
+
+    <string name="txtOk">Да</string>
+    <string name="txtNo">Нет</string>
+    <string name="txtInfo">Информация</string>
+    <string name="applyChoise">Подтвердить выбор</string>
+    <string name="applyChoiseCat">Выбрать данную категорию фильтров?</string>
+    <string name="applyChoiseMod">Установить данный картридж?</string>
+    <string name="applyChoiseFilter">Установить выбранный фильтр с данным картриджом?</string>
+    <string name="compMenu">componentMenu</string>
+    <string name="menuEdit">Редактировать</string>
+    <string name="menuDelete">Удалить</string>
+    <string name="menuAddModule">Установить картридж</string>
+    <string name="menuOff">Демонтировать</string>
+</resources>

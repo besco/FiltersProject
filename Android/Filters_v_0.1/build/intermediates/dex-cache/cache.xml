@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="D:\Work\My_Homes_Project\Filters_Project\FE\Filters_v_0.1\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="3469cb457f10f74c28cbc05f069b6c894f6cbdd0">
+        <dex dex="D:\Work\My_Homes_Project\Filters_Project\FE\Filters_v_0.1\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-23.2.1_a491672a1a128e1296cee35d13da13b12ebe62f7.jar" />
+    </item>
+    <item
+        jar="D:\Work\My_Homes_Project\Filters_Project\FE\Filters_v_0.1\app\libs\httpclient-4.5.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="7e3cecc566df91338c6c67883b89ddd05a17db43">
+        <dex dex="D:\Work\My_Homes_Project\Filters_Project\FE\Filters_v_0.1\app\build\intermediates\pre-dexed\debug\httpclient-4.5.1_2617d5a226c02c27281d96872a2e192dd1846317.jar" />
+    </item>
+    <item
+        jar="D:\Work\My_Homes_Project\Filters_Project\FE\Filters_v_0.1\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="3be474b1b21b31cf2fa93fe6bd641ae108d96452">
+        <dex dex="D:\Work\My_Homes_Project\Filters_Project\FE\Filters_v_0.1\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.2.1_97c8ed9ba1f1d29316bd9ab9a23f9d78c417c826.jar" />
+    </item>
+    <item
+        jar="D:\Work\My_Homes_Project\Filters_Project\FE\Filters_v_0.1\app\libs\httpcore-4.4.3.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="e876a79d561e5c6207b78d347e198c8c4531a5e5">
+        <dex dex="D:\Work\My_Homes_Project\Filters_Project\FE\Filters_v_0.1\app\build\intermediates\pre-dexed\debug\httpcore-4.4.3_2327e6b39e81da1a34e8325f2a8c7e2d485db9fc.jar" />
+    </item>
+    <item
+        jar="D:\Work\My_Homes_Project\Filters_Project\FE\Filters_v_0.1\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="e4d0cbb0b999604b349062f0214a0a228a7fd151">
+        <dex dex="D:\Work\My_Homes_Project\Filters_Project\FE\Filters_v_0.1\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-23.2.1_d8a594601b8871f9d6a4cbc4deb45959bab61f2e.jar" />
+    </item>
+    <item
+        jar="D:\Work\My_Homes_Project\Filters_Project\FE\Filters_v_0.1\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="673d77a5bbddd766037f088e775df525c46407f0">
+        <dex dex="D:\Work\My_Homes_Project\Filters_Project\FE\Filters_v_0.1\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-23.2.1_3defd2464a6ee6b47b21af734196c8936fe920ff.jar" />
+    </item>
+    <item
+        jar="C:\Users\sanai\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.2.1\support-annotations-23.2.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="ccb693bc0774fcb637246f7360de25b4af7df318">
+        <dex dex="D:\Work\My_Homes_Project\Filters_Project\FE\Filters_v_0.1\app\build\intermediates\pre-dexed\debug\support-annotations-23.2.1_817a73cb4ebe614fe5d8019424bb015b24c551ff.jar" />
+    </item>
+    <item
+        jar="D:\Work\My_Homes_Project\Filters_Project\FE\Filters_v_0.1\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.1\jars\libs\internal_impl-23.2.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="607a3d0b8013b4ccbfeb0b7cb293351994e021fb">
+        <dex dex="D:\Work\My_Homes_Project\Filters_Project\FE\Filters_v_0.1\app\build\intermediates\pre-dexed\debug\internal_impl-23.2.1_1195b446ad2caaaec14db93ad7fa377e15105d82.jar" />
+    </item>
+    <item
+        jar="D:\Work\My_Homes_Project\Filters_Project\FE\Filters_v_0.1\app\build\intermediates\exploded-aar\com.mcxiaoke.volley\library-aar\1.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="e40b9a81989bd4a846018551c280f8c4d837bf2e">
+        <dex dex="D:\Work\My_Homes_Project\Filters_Project\FE\Filters_v_0.1\app\build\intermediates\pre-dexed\debug\com.mcxiaoke.volley-library-aar-1.0.0_4359835e346a92efac1b99415a423dab2d417f09.jar" />
+    </item>
+
+</items>

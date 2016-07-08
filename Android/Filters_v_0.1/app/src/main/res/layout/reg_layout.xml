@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/gradient"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/textNewUser"
+        android:id="@+id/textView"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.06"
+        android:gravity="center_vertical|center_horizontal"
+        android:textColor="#ffffff"
+        android:textSize="25sp" />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="0dp"
+        android:layout_gravity="center_horizontal"
+        android:inputType="none"
+        android:id="@+id/newName"
+        android:hint="@string/textName"
+        android:background="@drawable/edit_text_selector"
+        android:layout_weight="0.12"
+        android:textColor="@color/colorText"
+        android:textColorHint="@color/gray" />
+
+    <Space
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.05" />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="0dp"
+        android:id="@+id/newPhone"
+        android:layout_weight="0.12"
+        android:background="@drawable/edit_text_selector"
+        android:hint="@string/textPhone"
+        android:inputType="phone"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/colorText"
+        android:textColorHint="@color/gray" />
+
+    <Space
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.05" />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="0dp"
+        android:id="@+id/newEmail"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/edit_text_selector"
+        android:hint="@string/textEmail"
+        android:inputType="textEmailAddress"
+        android:layout_weight="0.12"
+        android:textColor="@color/colorText"
+        android:textColorHint="@color/gray" />
+
+    <Space
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.05" />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="0dp"
+        android:id="@+id/newPass"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/edit_text_selector"
+        android:hint="@string/textPass"
+        android:inputType="textPassword"
+        android:layout_weight="0.12"
+        android:textColor="@color/colorText"
+        android:textColorHint="@color/gray" />
+
+    <Space
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.05" />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="@string/btnNewUser"
+        android:id="@+id/btnNewUser"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/btn_selector"
+        android:textColor="#ffffff" />
+
+</LinearLayout>

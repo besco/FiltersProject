@@ -1,0 +1,26 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sanai.filters_v_01">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.sanai.filters_v_01.users.LoginActivity" android:label="Фильтры">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".users.RegActivity"             android:label="Registration"          />
+        <activity android:name=".users.UserInfoActivity"        android:label="User Information"      />
+        <activity android:name=".users.ChoiceCatActivity"       android:label="Choice Firm Category"  />
+        <activity android:name=".users.AboutActivity"           android:label="About"                 />
+        <activity android:name=".users.ChoiceCatFilterActivity" android:label="Choice Filters One Cat"/>
+        <activity android:name=".users.UseFilterInfo"           android:label="Use Filter Info"       />
+        <activity android:name=".users.AddUseModuleActivity"    android:label="Add New Module"        />
+    </application>
+
+</manifest>

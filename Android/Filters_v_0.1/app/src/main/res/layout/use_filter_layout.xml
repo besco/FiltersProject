@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/gradient"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/textAddFilter"
+        android:id="@+id/textView4"
+        android:layout_gravity="center_horizontal"
+        android:autoText="false"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:gravity="center_vertical|center_horizontal"
+        android:layout_weight="0.06" />
+
+    <Space
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.05" />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="0dp"
+        android:id="@+id/editAddr"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/edit_text_selector"
+        android:layout_weight="0.12"
+        android:inputType="text"
+        android:hint="@string/hintAddr"
+        android:textColorHint="@color/gray"
+        android:textColor="@color/colorText" />
+
+    <Space
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.05" />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="0dp"
+        android:id="@+id/editPhone"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.12"
+        android:background="@drawable/edit_text_selector"
+        android:inputType="phone"
+        android:hint="@string/hintPhone"
+        android:textColorHint="@color/gray"
+        android:textColor="@color/colorText" />
+
+    <Space
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.05" />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="0dp"
+        android:id="@+id/editDateBegin"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/edit_text_selector"
+        android:layout_weight="0.12"
+        android:hint="@string/hintDateBeginFilter"
+        android:inputType="date"
+        android:textColorHint="@color/gray"
+        android:textColor="@color/colorText" />
+
+    <Space
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.05" />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="0dp"
+        android:id="@+id/editDateEnd"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/edit_text_selector"
+        android:layout_weight="0.12"
+        android:hint="@string/hintDateEndFilter"
+        android:inputType="date"
+        android:textColorHint="@color/gray"
+        android:textColor="@color/colorText" />
+
+    <Space
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.05" />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="@string/btnUpdUseFilter"
+        android:id="@+id/btnUpdFilter"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/btn_selector"
+        android:textColor="#ffffff" />
+</LinearLayout>
